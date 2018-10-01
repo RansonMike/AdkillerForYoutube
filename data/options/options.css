@@ -1,0 +1,48 @@
+body {
+  border: 0;
+  width: 600px;
+  padding: 5px;
+  height: 220px;
+  font-size: 12px;
+  margin: 10px auto;
+  align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  font-family: arial, sans-serif;
+}
+
+table {
+  color: #333;
+  height: 100%;
+  margin: auto;
+  font-size: 12px;
+  border-spacing: 0;
+  font-family: arial, sans-serif;
+}
+
+table tr td {
+  padding: 0 5px;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+input[type='checkbox'] {
+  margin: 5px;
+  vertical-align: middle;
+}
+
+span {
+  vertical-align: middle;
+}
+
+.title {
+  width: 150px;
+}
+
+.note {
+  margin: 0;
+  color: #666;
+  padding: 10px;
+  font-size: 95%;
+  background-color: rgba(0,0,0,0.05);
+}

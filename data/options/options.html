@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Options - Adremover for Youtube</title>
+    <link rel="icon" type="image/png" href="../icons/16.png">
+    <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+<div id="content">
+    <table>
+        <tr>
+            <td class="title">Video Annotations</td>
+            <td>
+                <span>Check this option to block YouTube annotations </span><input data-pref="youtube.annotations"
+                                                                                   type="checkbox"></input>
+                <p class="note">Default is to ALLOW YouTube annotations. Please note blocking annotations may introduce
+                    conflicts with YouTube player (i.e. hiding player buttons, etc.)</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Complementary Method</td>
+            <td>
+                <span>Check this option to enable complementary method for blocking ads </span><input
+                    data-pref="youtube.nativeBlock" type="checkbox"></input>
+                <p class="note">When using this adblocker, if some ads are still appeared in youtube videos, please
+                    activate this complementary option. This option removes remaining ads by changing few settings
+                    inside youtube player API.</p>
+            </td>
+        </tr>
+    </table>
+</div>
+<script type='text/javascript' src="../message_passing.js"></script>
+<script type='text/javascript' src="options.js"></script>
+</body>
+</html>

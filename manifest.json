@@ -1,0 +1,54 @@
+{
+    "version": "1.1.0.3",
+    "manifest_version": 2,
+    "short_name": "Adremover for Youtube",
+    "name": "Adremover for Youtube",
+    "background": {
+        "page": "lib/chrome/background.html"
+    },
+    "web_accessible_resources": [
+        "data/content_script/*"
+    ],
+    "description": "Removes ads on Youtube. It also allows you to block annotations and pre-rolls.",
+    "options_ui": {
+        "chrome_style": true,
+        "page": "data/options/options.html"
+    },
+    "permissions": [
+        "contextMenus",
+        "privacy",
+        "storage",
+        "cookies",
+        "tabs",
+        "unlimitedStorage",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*",
+        "notifications"
+    ],
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "run_at": "document_start",
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "css": [
+                "data/content_script/inject.css"
+            ],
+            "js": [
+                "data/message_passing.js",
+                "data/content_script/inject.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "data/icons/16.png",
+        "32": "data/icons/32.png",
+        "48": "data/icons/48.png",
+        "64": "data/icons/64.png",
+        "128": "data/icons/128.png"
+    }
+}
