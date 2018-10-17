@@ -9,6 +9,7 @@ Adkiller For Youtube requires no personal information to run, and doesn't monito
 
 Adkiller For Youtube removes YouTube video ads before you see them. Just press play. To take Adkiller For Youtube to take effect, please reload your open tabs and windows.
 
+
 ★ Privacy Policy:
 
 No Data is shared with anyone.
