@@ -8,9 +8,12 @@ Adkiller For Youtube
 
 With Adkiller For Youtube most ads aren't even downloaded at all. So you can focus on enjoying the content you want, and spend less time waiting for it.
 
+
 Adkiller For Youtube requires no personal information to run, and doesn't monitor your browsing. Want to allow ads on certain sites you love? No problem.
 
+
 Adkiller For Youtube removes YouTube video ads before you see them. Just press play. To take Adkiller For Youtube to take effect, please reload your open tabs and windows.
+
 
 
 ★ Privacy Policy:
