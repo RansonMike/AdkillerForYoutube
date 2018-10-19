@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="yUCNsFEWRLUuPf09XLY_7Nvq71t111aYS_WH8ICH1bw" />
 
 # Adkiller For Youtube
 Adkiller For Youtube
